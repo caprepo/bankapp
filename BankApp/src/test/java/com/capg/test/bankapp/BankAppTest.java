@@ -56,7 +56,7 @@ public class BankAppTest {
 		Mockito.verify(accountDao).saveAccount(account);
 		
 		//validation
-		assertEquals(230, account1.getOpeningBalance(), 0.0);
+		assertEquals(2300, account1.getOpeningBalance(), 0.0);
 		
 	}
 
